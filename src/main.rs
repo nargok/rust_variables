@@ -6,5 +6,9 @@ fn main() {
     let quotient = 56.7 / 32.2;
 
     let remainder = 43 % 5;
+
+    let t = true;
+
+    let f: bool = false;
 }
 
