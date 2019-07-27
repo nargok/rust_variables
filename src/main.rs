@@ -1,7 +1,10 @@
 fn main() {
-    let mut spaces = "   ";
-    spaces = spaces.len();
+    let sum = 5 + 10;
 
-    println!("The spaces length is {}", spaces);
+    let difference = 95.5 - 4.3;
+
+    let quotient = 56.7 / 32.2;
+
+    let remainder = 43 % 5;
 }
 
