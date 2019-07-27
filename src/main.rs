@@ -1,11 +1,12 @@
 fn main() {
-    println!("hello world");
+    let x = 5;
 
-    another_function(5);
-}
+    let y = {
+        let _x = 3;
+        _x + 1
+    };
 
-fn another_function(x: i32) {
-    println!("The value of x is: {}", x);
+    println!("The value of y is: {}", y);
 }
 
 
