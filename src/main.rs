@@ -1,18 +1,9 @@
 fn main() {
-    let sum = 5 + 10;
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
 
-    let difference = 95.5 - 4.3;
+    let (x, y, z) = tup;
 
-    let quotient = 56.7 / 32.2;
-
-    let remainder = 43 % 5;
-
-    let t = true;
-
-    let f: bool = false;
-
-    let c = 'z';
-    let z = 'Z';
-    let heart_eyed_cat = '?';
+    println!("The value of y is: {}", y);
 }
+
 
