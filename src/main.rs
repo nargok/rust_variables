@@ -1,9 +1,11 @@
 fn main() {
-    let tup: (i32, f64, u8) = (500, 6.4, 1);
+    println!("hello world");
 
-    let (x, y, z) = tup;
+    another_function();
+}
 
-    println!("The value of y is: {}", y);
+fn another_function() {
+    println!("Another function");
 }
 
 
